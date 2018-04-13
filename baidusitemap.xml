@@ -4,6 +4,51 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
+    <lastmod>2018-04-13T09:44:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux基础（二）</title>
+        <pubTime>2018-04-13T09:39:43.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>操作系统</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/04/13/linux/linux_01/</loc>
+    <lastmod>2018-04-13T09:43:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux基础(一)</title>
+        <pubTime>2018-04-13T07:06:54.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>操作系统</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/13/mybatis/mybatis_01/</loc>
     <lastmod>2018-04-13T08:17:29.000Z</lastmod>
     <data>
@@ -17,28 +62,6 @@
            
              
               <breadCrumb title="mybatis" url="http://baofengketang.com/categories/mybatis/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/04/13/linux/linux_01/</loc>
-    <lastmod>2018-04-13T08:03:28.000Z</lastmod>
-    <data>
-        <display>
-        <title>Linux基础</title>
-        <pubTime>2018-04-13T07:06:54.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>操作系统</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
           
         </display>
     </data>
@@ -88,7 +111,6 @@
     </data>
     </url>
 
-    
     
     
     
