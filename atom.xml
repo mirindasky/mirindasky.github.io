@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://baofengketang.com/"/>
-  <updated>2018-04-13T07:56:07.000Z</updated>
+  <updated>2018-04-13T08:17:29.000Z</updated>
   <id>http://baofengketang.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://baofengketang.com/2018/04/13/mybatis/mybatis_01/"/>
     <id>http://baofengketang.com/2018/04/13/mybatis/mybatis_01/</id>
     <published>2018-04-13T07:48:19.000Z</published>
-    <updated>2018-04-13T07:56:07.000Z</updated>
+    <updated>2018-04-13T08:17:29.000Z</updated>
     
     <content type="html"><![CDATA[<h1><span id="mybatis-ru-men">MyBatis入门</span><a href="#mybatis-ru-men" class="header-anchor">#</a></h1>]]></content>
     
@@ -34,12 +34,10 @@
     
     </summary>
     
-      <category term="项目构建" scheme="http://baofengketang.com/categories/%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA/"/>
+      <category term="mybatis" scheme="http://baofengketang.com/categories/mybatis/"/>
     
     
-      <category term="maven" scheme="http://baofengketang.com/tags/maven/"/>
-    
-      <category term="项目构建" scheme="http://baofengketang.com/tags/%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA/"/>
+      <category term="mybatis" scheme="http://baofengketang.com/tags/mybatis/"/>
     
   </entry>
   
