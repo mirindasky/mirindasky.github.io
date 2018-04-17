@@ -4,6 +4,50 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/04/17/vim/vim_01/</loc>
+    <lastmod>2018-04-17T04:38:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>编辑器之神－VIM</title>
+        <pubTime>2018-04-16T16:10:01.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+        <tag>编辑器</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="http://baofengketang.com/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
+    <lastmod>2018-04-16T16:15:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux基础（二）</title>
+        <pubTime>2018-04-13T09:39:43.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>操作系统</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
     <lastmod>2018-04-16T12:05:52.000Z</lastmod>
     <data>
@@ -83,28 +127,6 @@
            
              
               <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
-    <lastmod>2018-04-16T12:05:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Linux基础（二）</title>
-        <pubTime>2018-04-13T09:39:43.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>操作系统</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
           
         </display>
     </data>
