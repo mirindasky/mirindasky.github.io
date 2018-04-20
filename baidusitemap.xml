@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
+    <lastmod>2018-04-20T05:04:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(一)</title>
+        <pubTime>2018-04-19T03:49:29.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/17/vim/vim_01/</loc>
-    <lastmod>2018-04-17T04:38:10.000Z</lastmod>
+    <lastmod>2018-04-17T15:00:25.000Z</lastmod>
     <data>
         <display>
         <title>编辑器之神－VIM</title>
