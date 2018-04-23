@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/04/20/python_base/python_02/</loc>
+    <lastmod>2018-04-23T08:19:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(二)</title>
+        <pubTime>2018-04-20T05:08:49.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
-    <lastmod>2018-04-20T05:04:46.000Z</lastmod>
+    <lastmod>2018-04-20T05:09:11.000Z</lastmod>
     <data>
         <display>
         <title>Python基础(一)</title>
@@ -16,7 +36,7 @@
          
            
              
-              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
           
         </display>
     </data>
