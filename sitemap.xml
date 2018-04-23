@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://baofengketang.com/about/index.html</loc>
+    
+    <lastmod>2018-04-23T14:39:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/04/13/jinhaoze/number1/</loc>
+    
+    <lastmod>2018-04-23T14:38:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://baofengketang.com/2018/04/23/python_base/python_03/</loc>
     
     <lastmod>2018-04-23T14:26:29.000Z</lastmod>
@@ -65,23 +79,9 @@
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/04/13/jinhaoze/number1/</loc>
-    
-    <lastmod>2018-04-16T12:05:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://baofengketang.com/2018/04/13/linux/linux_01/</loc>
     
     <lastmod>2018-04-16T12:05:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/about/index.html</loc>
-    
-    <lastmod>2018-04-12T03:54:15.000Z</lastmod>
     
   </url>
   

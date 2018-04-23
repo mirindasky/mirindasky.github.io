@@ -3,6 +3,27 @@
 
 
     
+    
+  <url>
+    <loc>http://baofengketang.com/2018/04/13/jinhaoze/number1/</loc>
+    <lastmod>2018-04-23T14:38:57.000Z</lastmod>
+    <data>
+        <display>
+        <title>古诗词（一）</title>
+        <pubTime>2018-04-13T13:04:43.000Z</pubTime>
+        
+        <tag>诗词</tag>
+         
+         
+           
+             
+              <breadCrumb title="诗词" url="http://baofengketang.com/categories/%E8%AF%97%E8%AF%8D/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://baofengketang.com/2018/04/23/python_base/python_03/</loc>
     <lastmod>2018-04-23T14:26:29.000Z</lastmod>
@@ -187,28 +208,6 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/04/13/jinhaoze/number1/</loc>
-    <lastmod>2018-04-16T12:05:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>古诗词（一）</title>
-        <pubTime>2018-04-13T13:04:43.000Z</pubTime>
-        
-        <tag>亲子</tag>
-         
-        <tag>诗词</tag>
-         
-         
-           
-             
-              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://baofengketang.com/2018/04/13/linux/linux_01/</loc>
     <lastmod>2018-04-16T12:05:00.000Z</lastmod>
     <data>
@@ -229,7 +228,6 @@
     </data>
     </url>
 
-    
     
     
 </urlset>
