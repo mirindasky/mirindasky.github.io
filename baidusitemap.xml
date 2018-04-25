@@ -4,12 +4,52 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/04/23/python_base/python_04/</loc>
+    <lastmod>2018-04-25T09:26:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(四)</title>
+        <pubTime>2018-04-23T09:44:50.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/23/python_base/python_03/</loc>
-    <lastmod>2018-04-24T08:10:51.000Z</lastmod>
+    <lastmod>2018-04-25T03:14:18.000Z</lastmod>
     <data>
         <display>
         <title>Python基础(三)</title>
         <pubTime>2018-04-23T08:23:30.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/04/20/python_base/python_02/</loc>
+    <lastmod>2018-04-25T03:03:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(二)</title>
+        <pubTime>2018-04-20T05:08:49.000Z</pubTime>
         
         <tag>Python</tag>
          
@@ -51,41 +91,6 @@
         <display>
         <title>Python基础(一)</title>
         <pubTime>2018-04-19T03:49:29.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/04/23/python_base/python_04/</loc>
-    <lastmod>2018-04-23T09:44:50.000Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2018-04-23T09:44:50.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/04/20/python_base/python_02/</loc>
-    <lastmod>2018-04-23T09:33:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python基础(二)</title>
-        <pubTime>2018-04-20T05:08:49.000Z</pubTime>
         
         <tag>Python</tag>
          
