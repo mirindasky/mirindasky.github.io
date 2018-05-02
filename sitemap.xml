@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
+    
+    <lastmod>2018-05-02T02:52:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/04/17/vim/vim_01/</loc>
+    
+    <lastmod>2018-05-02T02:49:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
+    
+    <lastmod>2018-04-28T14:21:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://baofengketang.com/2018/04/23/python_base/python_04/</loc>
     
-    <lastmod>2018-04-25T09:26:14.000Z</lastmod>
+    <lastmod>2018-04-26T09:01:37.000Z</lastmod>
     
   </url>
   
@@ -40,27 +61,6 @@
     <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
     
     <lastmod>2018-04-23T14:26:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/04/17/vim/vim_01/</loc>
-    
-    <lastmod>2018-04-17T15:00:25.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
-    
-    <lastmod>2018-04-16T16:15:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
-    
-    <lastmod>2018-04-16T12:05:52.000Z</lastmod>
     
   </url>
   
