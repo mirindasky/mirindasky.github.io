@@ -2,9 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://baofengketang.com/2018/05/03/linux/linux_03/</loc>
+    
+    <lastmod>2018-05-04T08:23:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/04/linux/linux_01/</loc>
+    
+    <lastmod>2018-05-04T08:20:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/04/17/vim/vim_01/</loc>
+    
+    <lastmod>2018-05-04T08:05:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/04/vim/vim_02/</loc>
+    
+    <lastmod>2018-05-04T02:45:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/03/linux/linux_06/</loc>
+    
+    <lastmod>2018-05-03T09:59:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/03/linux/linux_05/</loc>
+    
+    <lastmod>2018-05-03T09:21:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/03/linux/linux_04/</loc>
+    
+    <lastmod>2018-05-03T03:34:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
     
-    <lastmod>2018-05-03T01:54:32.000Z</lastmod>
+    <lastmod>2018-05-03T03:27:56.000Z</lastmod>
     
   </url>
   
@@ -12,13 +61,6 @@
     <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
     
     <lastmod>2018-05-02T02:55:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/04/17/vim/vim_01/</loc>
-    
-    <lastmod>2018-05-02T02:49:43.000Z</lastmod>
     
   </url>
   
@@ -75,13 +117,6 @@
     <loc>http://baofengketang.com/2018/04/11/maven/maven_01/</loc>
     
     <lastmod>2018-04-16T12:05:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/04/13/linux/linux_01/</loc>
-    
-    <lastmod>2018-04-16T12:05:00.000Z</lastmod>
     
   </url>
   

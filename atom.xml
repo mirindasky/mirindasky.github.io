@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://baofengketang.com/"/>
-  <updated>2018-04-26T09:01:37.000Z</updated>
+  <updated>2018-05-04T08:20:36.000Z</updated>
   <id>http://baofengketang.com/</id>
   
   <author>
@@ -15,6 +15,193 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux基础(一)</title>
+    <link href="http://baofengketang.com/2018/05/04/linux/linux_01/"/>
+    <id>http://baofengketang.com/2018/05/04/linux/linux_01/</id>
+    <published>2018-05-04T08:20:36.000Z</published>
+    <updated>2018-05-04T08:20:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#linux-xi-tong-de-fa-zhan-shi">Linux系统的发展史</a><ul><li><a href="#unix-xi-tong">Unix系统</a></li><li><a href="#minix">Minix</a></li><li><a href="#liunx">Liunx</a></li><li><a href="#zong-jie">总结</a></li></ul></li></ul><!-- tocstop --></div><h1><span id="linux-xi-tong-de-fa-zhan-shi">Linux系统的发展史</span><a href="#linux-xi-tong-de-fa-zhan-shi" class="header-anchor">#</a></h1><h2><span id="unix-xi-tong">Unix系统</span><a href="#unix-xi-tong" class="header-anchor">#</a></h2><p>1965年之前的时候， 电脑并不像现在⼀样普遍， 它可不是⼀般⼈能碰的起的， 除⾮是军事或者学院的研究机构， ⽽且当时⼤型主机⾄多能提供30台终端（30个键盘、 显示器)， 连接⼀台电脑</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523518478.png?imageMogr2/thumbnail/!70p" alt=""></p><p>为了解决数量不够⽤的问题，1965年左后由⻉尔实验室、 麻省理⼯学院以及通⽤电⽓共同发起了<strong>Multics</strong>项⽬， 想让⼤型主机⽀持300台终端</p><p>1969年前后这个项⽬进度缓慢， 资⾦短缺， ⻉尔实验室退出了研究</p><p>1969年从这个项⽬中退出的Ken Thompson当时在实验室⽆聊时， 为了让⼀台空闲的电脑上能够运⾏“星际旅⾏”游⾏， 在8⽉份左右趁着其妻⼦探亲的时间， ⽤了1个⽉的时间编写出了Unix操作系统的原型</p><p>1970年， 美国⻉尔实验室的 <strong>Ken Thompson</strong>， 以 BCPL语⾔ 为基础， 设计出很简单且很接近硬件的 B语⾔（取BCPL的⾸字⺟） ， 并且他⽤B语⾔写了第⼀个UNIX操作系统。因为B语⾔的跨平台性较差， 为了能够在其他的电脑上也能够运⾏这个⾮常棒的Unix操作系统， Dennis Ritchie和Ken Thompson 从B语⾔的基础上准备研究⼀个更好的语言</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523518810.png?imageMogr2/thumbnail/!70p" alt=""></p><p>1972年， 美国⻉尔实验室的 Dennis Ritchie在B语⾔的基础上最终设计出了⼀种新的语⾔， 他取了BCPL的第⼆个字⺟作为这种语⾔的名字， 这就是C语⾔</p><p>1973年初， C语⾔的主体完成。 Thompson和Ritchie迫不及待地开始⽤它完全重写了现在⼤名鼎鼎的Unix操作系统</p><h2><span id="minix">Minix</span><a href="#minix" class="header-anchor">#</a></h2><p>因为AT&amp;T(通⽤电⽓)的政策改变， 在Version 7 Unix推出之后， 发布新的使⽤条款， 将UNIX源代码私有化， 在⼤学中不再能使⽤UNIX源代码。 Andrew S. Tanenbaum(塔能鲍姆)教授为了能在课堂上教授学⽣操作系统运作的实务细节， 决定在不使⽤任何AT&amp;T的源代码前提下， ⾃⾏开发与UNIX兼容的操作系统， 以避免版权上的争议。 他以⼩型UNIX（mini-UNIX） 之意， 将它称为MINIX(仅用于教学，不做商用)</p><h2><span id="liunx">Liunx</span><a href="#liunx" class="header-anchor">#</a></h2><p>因为Minix只是教学使⽤， 因此功能并不强， 因此Torvalds利⽤GNU的bash当做开发环境， gcc当做编译⼯具， 编写了Linux内核-v0.02， 但是⼀开始Linux并不能兼容Unix， 即Unix上跑的应⽤程序不能在Linux上跑， 即应⽤程序与内核之间的接⼝不⼀致， 因为Unix是遵循POSIX规范的， 因此Torvalds修改了Linux， 并遵循POSIX（Portable OperatingSystem Interface， 他规范了应⽤程序与内核的接⼝规范） ； ⼀开始Linux只适⽤于386，后来经过全世界的⽹友的帮助， 最终能够兼容多种硬件；</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523521142.png?imageMogr2/thumbnail/!70p" alt=""></p><h2><span id="zong-jie">总结</span><a href="#zong-jie" class="header-anchor">#</a></h2><p><strong>Minix没有⽕起来的原因</strong></p><blockquote><p>Minix的创始⼈说， MINIX 3没有统治世界是源于他在1992年犯下的⼀个错误， 当时他认为BSD必然会⼀统天下， 因为它是⼀个更稳定和更成熟的系统， 其它操作系统难以与之竞争。 因此他的MINIX的重⼼集中在教育上。 四名BSD开发者已经成⽴了⼀家公司销售BSD系统， 他们甚⾄还有⼀个有趣的电话号码1-800-ITS-UNIX。 然⽽他们正因为这个电话号码⽽惹⽕上身。 美国电话电报公司因电话号码⽽提起诉讼。官司打了三年才解决。 在此期间， BSD陷于停滞， ⽽Linux则借此⼀⻜冲天。 他的错误在于没有意识官司竟然持续了如此⻓的时间， 以及BSD会因此受到削弱。 如果美国电话电报公司没有起诉， Linux永远不会流⾏起来， BSD将统治世界。</p></blockquote><p><strong>Linux现在版本</strong><br><strong>_<code></code>_</strong><br><img src="http://p6wdo7p1v.bkt.clouddn.com/1523524203.png?imageMogr2/thumbnail/!70p" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;toc&quot;&gt;
+
+&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#linux-xi-tong-de-fa-zhan-shi&quot;&gt;Linux系统的发展史&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#unix-xi-tong&quot;&gt;Unix系统&lt;/a&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://baofengketang.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://baofengketang.com/tags/linux/"/>
+    
+      <category term="操作系统" scheme="http://baofengketang.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Ubuntu中vi命令的编辑模式下不能正常使用方向键和退格键的问题</title>
+    <link href="http://baofengketang.com/2018/05/04/vim/vim_02/"/>
+    <id>http://baofengketang.com/2018/05/04/vim/vim_02/</id>
+    <published>2018-05-04T02:43:05.000Z</published>
+    <updated>2018-05-04T02:45:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1><span id="jie-jue-ubuntu-zhong-vi-ming-ling-de-bian-ji-mo-shi-xia-bu-neng-zheng-chang-shi-yong-fang-xiang-jian-he-tui-ge-jian-de-wen-ti">解决Ubuntu中vi命令的编辑模式下不能正常使用方向键和退格键的问题</span><a href="#jie-jue-ubuntu-zhong-vi-ming-ling-de-bian-ji-mo-shi-xia-bu-neng-zheng-chang-shi-yong-fang-xiang-jian-he-tui-ge-jian-de-wen-ti" class="header-anchor">#</a></h1><p>在Ubuntu中，进入vi命令的编辑模式，发现按方向键不能移动光标，而是会输出ABCD，以及退格键也不能正常删除字符。这是由于Ubuntu预装的是vim-tiny，而我们需要使用vim-full，解决方法很简单，只需要以下两步：<br>　　<br>步骤一，输入下述命令以卸载vim-tiny：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get remove vim-common</span><br></pre></td></tr></table></figure><p>步骤二，输入下述命令以安装vim-full：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vim</span><br></pre></td></tr></table></figure><p>现在在vi命令的编辑模式即可正常使用方向键和退格键。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1&gt;&lt;span id=&quot;jie-jue-ubuntu-zhong-vi-ming-ling-de-bian-ji-mo-shi-xia-bu-neng-zheng-chang-shi-yong-fang-xiang-jian-he-tui-ge-jian-de-wen-ti&quot;
+      
+    
+    </summary>
+    
+      <category term="vim" scheme="http://baofengketang.com/categories/vim/"/>
+    
+    
+      <category term="vim" scheme="http://baofengketang.com/tags/vim/"/>
+    
+      <category term="编辑器" scheme="http://baofengketang.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux常用服务器构建-ftp服务器</title>
+    <link href="http://baofengketang.com/2018/05/03/linux/linux_06/"/>
+    <id>http://baofengketang.com/2018/05/03/linux/linux_06/</id>
+    <published>2018-05-03T09:22:14.000Z</published>
+    <updated>2018-05-03T09:59:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#ftp-fu-wu-qi">ftp服务器</a></li></ul><!-- tocstop --></div><h3><span id="ftp-fu-wu-qi">ftp服务器</span><a href="#ftp-fu-wu-qi" class="header-anchor">#</a></h3><p>FTP 是File Transfer Protocol（文件传输协议）的英文简称，而中文简称为“文传协议”。用于Internet上的控制文件的双向传输。同时，它也是一个应用程序（Application）。基于不同的操作系统有不同的FTP应用程序，而所有这些应用程序都遵守同一种协议以传输文件。</p><p>在FTP的使用当中，用户经常遇到两个概念：”下载”（Download）和”上传”（Upload）。</p><p>“下载”文件就是从远程主机拷贝文件至自己的计算机上；</p><p>“上传”文件就是将文件从自己的计算机中拷贝至远程主机上。用Internet语言来说，用户可通过客户机程序向（从）远程主机上传（下载）文件。</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1525339849.png?imageMogr2/thumbnail/!70p" alt=""></p><p>1、安装vsftpd服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vsftpd</span><br></pre></td></tr></table></figure><p>2、配置vsftpd.conf文件</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;toc&quot;&gt;
+
+&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#ftp-fu-wu-qi&quot;&gt;ftp服务器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;&lt;span id=&quot;ftp-fu-wu-qi&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://baofengketang.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://baofengketang.com/tags/linux/"/>
+    
+      <category term="操作系统" scheme="http://baofengketang.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu软件安装与卸载</title>
+    <link href="http://baofengketang.com/2018/05/03/linux/linux_05/"/>
+    <id>http://baofengketang.com/2018/05/03/linux/linux_05/</id>
+    <published>2018-05-03T08:46:25.000Z</published>
+    <updated>2018-05-03T09:21:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#geng-xin-ubuntu-ruan-jian-xia-zai-di-zhi">更新Ubuntu软件下载地址</a><ul><li><a href="#xun-zhao-guo-nei-jing-xiang-yuan">寻找国内镜像源</a></li><li><a href="#bei-fen-ubuntu-mo-ren-de-yuan-di-zhi">备份Ubuntu默认的源地址</a></li><li><a href="#geng-xin-yuan-fu-wu-qi-lie-biao">更新源服务器列表</a></li><li><a href="#geng-xin-yuan">更新源</a></li></ul></li><li><a href="#ubuntu-ruan-jian-cao-zuo-de-xiang-guan-ming-ling">Ubuntu软件操作的相关命令</a></li></ul><!-- tocstop --></div><h2><span id="geng-xin-ubuntu-ruan-jian-xia-zai-di-zhi">更新Ubuntu软件下载地址</span><a href="#geng-xin-ubuntu-ruan-jian-xia-zai-di-zhi" class="header-anchor">#</a></h2><h3><span id="xun-zhao-guo-nei-jing-xiang-yuan">寻找国内镜像源</span><a href="#xun-zhao-guo-nei-jing-xiang-yuan" class="header-anchor">#</a></h3><p>所谓的镜像源：可以理解为提供下载软件的地方，比如Android手机上可以下载软件的91手机助手；iOS手机上可以下载软件的AppStore</p><p><a href="https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/</a></p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1525337909.png?imageMogr2/thumbnail/!70p" alt=""></p><p>注意：一定要选择好你的ubuntu的版本号</p><h3><span id="bei-fen-ubuntu-mo-ren-de-yuan-di-zhi">备份Ubuntu默认的源地址</span><a href="#bei-fen-ubuntu-mo-ren-de-yuan-di-zhi" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup</span><br></pre></td></tr></table></figure><h3><span id="geng-xin-yuan-fu-wu-qi-lie-biao">更新源服务器列表</span><a href="#geng-xin-yuan-fu-wu-qi-lie-biao" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi sources.list</span><br></pre></td></tr></table></figure><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1525338282.png?imageMogr2/thumbnail/!70p" alt=""></p><h3><span id="geng-xin-yuan">更新源</span><a href="#geng-xin-yuan" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1525338410.png?imageMogr2/thumbnail/!70p" alt=""></p><p>看到此图就表示成功了</p><h2><span id="ubuntu-ruan-jian-cao-zuo-de-xiang-guan-ming-ling">Ubuntu软件操作的相关命令</span><a href="#ubuntu-ruan-jian-cao-zuo-de-xiang-guan-ming-ling" class="header-anchor">#</a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update  更新源</span><br><span class="line"></span><br><span class="line">sudo apt-get install package 安装包</span><br><span class="line"></span><br><span class="line">sudo apt-get remove package 删除包</span><br><span class="line"></span><br><span class="line">sudo apt-cache search package 搜索软件包</span><br><span class="line"></span><br><span class="line">sudo apt-cache show package  获取包的相关信息，如说明、大小、版本等</span><br><span class="line"></span><br><span class="line">sudo apt-get install package --reinstall   重新安装包</span><br><span class="line"></span><br><span class="line">sudo apt-get -f install   修复安装</span><br><span class="line"></span><br><span class="line">sudo apt-get remove package --purge 删除包，包括配置文件等</span><br><span class="line"></span><br><span class="line">sudo apt-get build-dep package 安装相关的编译环境</span><br><span class="line"></span><br><span class="line">sudo apt-get upgrade 更新已安装的包</span><br><span class="line"></span><br><span class="line">sudo apt-get dist-upgrade 升级系统</span><br><span class="line"></span><br><span class="line">sudo apt-cache depends package 了解使用该包依赖那些包</span><br><span class="line"></span><br><span class="line">sudo apt-cache rdepends package 查看该包被哪些包依赖</span><br><span class="line"></span><br><span class="line">sudo apt-get source package  下载该包的源代码</span><br><span class="line"></span><br><span class="line">sudo apt-get clean &amp;&amp; sudo apt-get autoclean 清理无用的包</span><br><span class="line"></span><br><span class="line">sudo apt-get check 检查是否有损坏的依赖</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;toc&quot;&gt;
+
+&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#geng-xin-ubuntu-ruan-jian-xia-zai-di-zhi&quot;&gt;更新Ubuntu软件下载地址&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#xun-zhao-g
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://baofengketang.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://baofengketang.com/tags/linux/"/>
+    
+      <category term="操作系统" scheme="http://baofengketang.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux安装ssh服务</title>
+    <link href="http://baofengketang.com/2018/05/03/linux/linux_04/"/>
+    <id>http://baofengketang.com/2018/05/03/linux/linux_04/</id>
+    <published>2018-05-03T03:28:16.000Z</published>
+    <updated>2018-05-03T03:34:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#guo-cheng">过程：</a></li><li><a href="#zui-hou">最后：</a></li></ul><!-- tocstop --></div><h2><span id="guo-cheng">过程：</span><a href="#guo-cheng" class="header-anchor">#</a></h2><p>1.检测是否已安装ssh服务，输入以下命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh localhost</span><br></pre></td></tr></table></figure><p>出现以下提示则为未安装：<br>ssh: connect to host localhost port 22: Connection refused<br>（ssh：连接到主机本地主机端口22：连接被拒绝）</p><p>2.安装ssh-server</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get install openssh-server</span><br></pre></td></tr></table></figure><p>3.启动服务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo /etc/init.d/ssh start</span><br></pre></td></tr></table></figure><p>启动成功会提示： </p><p>[ ok ] Starting ssh (via systemctl): ssh.service.</p><p>4.检查服务是否启动成功</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> ps -e|grep ssh</span><br></pre></td></tr></table></figure><p>若有下面提示则启动成功<br>6455 ? 00:00:00 sshd</p><h2><span id="zui-hou">最后：</span><a href="#zui-hou" class="header-anchor">#</a></h2><p>启动、停止、重启SSH命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /etc/init.d/ssh start          //启动SSH命令1</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /etc/init.d/ss stop           //停止SSH命令，重新连接你会发现不能再连接上了1</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /etc/init.d/ss restart        //重启SSH命令1</span><br></pre></td></tr></table></figure><p>系统默认端口为22，修改可执行以下命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo vim /etc/ssh/sshd_config1</span><br></pre></td></tr></table></figure><p>找到</p><p>“# Port 22”改为 “Port 你想要的端口” (没有#号，#代表注释意思。) 例如→”Port 33”（前提得保证这个端口没有被占用）<br>然后保存退出，再重启下服务即可生效</p><p>开启服务即刻在putty 连接，同时也可以通过sftp方式连接进行管理文件</p><p>卸载SSH服务:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /etc/init.d/ss stop</span><br><span class="line">$ sudo apt-get remove openssh-sftp-server                    //卸载sftp服务</span><br><span class="line">$ sudo apt-get remove openssh-server                     //卸载openssh-server服务</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;toc&quot;&gt;
+
+&lt;!-- toc --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#guo-cheng&quot;&gt;过程：&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#zui-hou&quot;&gt;最后：&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;
+&lt;/div&gt;
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://baofengketang.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://baofengketang.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux基础(三)</title>
+    <link href="http://baofengketang.com/2018/05/03/linux/linux_03/"/>
+    <id>http://baofengketang.com/2018/05/03/linux/linux_03/</id>
+    <published>2018-05-03T01:56:59.000Z</published>
+    <updated>2018-05-04T08:23:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1><span id="ce-shi">测试</span><a href="#ce-shi" class="header-anchor">#</a></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1&gt;&lt;span id=&quot;ce-shi&quot;&gt;测试&lt;/span&gt;&lt;a href=&quot;#ce-shi&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://baofengketang.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://baofengketang.com/tags/linux/"/>
+    
+      <category term="操作系统" scheme="http://baofengketang.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>Python基础(四)</title>
@@ -143,7 +330,7 @@
     <link href="http://baofengketang.com/2018/04/17/vim/vim_01/"/>
     <id>http://baofengketang.com/2018/04/17/vim/vim_01/</id>
     <published>2018-04-16T16:10:01.000Z</published>
-    <updated>2018-05-02T02:49:43.000Z</updated>
+    <updated>2018-05-04T08:05:42.000Z</updated>
     
     <content type="html"><![CDATA[<h1><span id="vim-jian-jie">VIM简介</span><a href="#vim-jian-jie" class="header-anchor">#</a></h1><p>vi是“Visual interface”的简称，它在Linux上的地位就仿佛Edit程序在DOS上一样。它可以执行输出、删除、查找、替换、块操作等众多文本操作，而且用户可以根据自己的需要对其进行定制。Vi不是一个排版程序，它不象Word或WPS那样可以对字体、格式、段落等其他属性进行编排，它只是一个文本编辑程序。 vi没有菜单，只有命令，且命令繁多。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Vi有三种基本工作模式：</span><br><span class="line">+  命令模式</span><br><span class="line">+  文本输入模式</span><br><span class="line">+  末行模式。</span><br></pre></td></tr></table></figure><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1524928023.png?imageMogr2/thumbnail/!70p" alt=""></p><h2><span id="ming-ling-xing-mo-shi">命令行模式</span><a href="#ming-ling-xing-mo-shi" class="header-anchor">#</a></h2><p>任何时候，不管用户处于何种模式，只要按一下ESC键，即可使Vi进入命令模式；我们在shell环境(提示符为$)下输入启动Vi命令，进入编辑器时，也是处于该模式下。在该模式下，用户可以输入各种合法的Vi命令，用于管理自己的文档。此时从键盘上输入的任何字符都被当做编辑命令来解释，若输入的字符是合法的Vi命令，则Vi在接受用户命令之后完成相应的动作。但需注意的是，所输入的命令并不在屏幕上显示出来。若输入的字符不是Vi的合法命令，vi会响铃报警</p><h2><span id="wen-ben-shu-ru-mo-shi">文本输入模式</span><a href="#wen-ben-shu-ru-mo-shi" class="header-anchor">#</a></h2><p>在命令模式下输入插入命令i、附加命令a 、打开命令o、修改命令c、取代命令r或替换命令s都可以进入文本输入模式。在该模式下，用户输入的任何字符都被Vi当做文件内容保存起来，并将其显示在屏幕上。在文本输入过程中，若想回到命令模式下，按键ESC即可</p><h2><span id="mo-xing-mo-shi">末行模式</span><a href="#mo-xing-mo-shi" class="header-anchor">#</a></h2><p>末行模式也称ex转义模式。在命令模式下，用户按“:”键即可进入末行模式下，此时Vi会在显示窗口的最后一行(通常也是屏幕的最后一行)显示一个“:”作为末行模式的提示符，等待用户输入命令。多数文件管理命令都是在此模式下执行的(如把编辑缓冲区的内容写到文件中等)。末行命令执行完后，Vi自动回到命令模式。例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:sp newfile</span><br></pre></td></tr></table></figure><p>则分出一个窗口编辑newfile文件。如果要从命令模式转换到编辑模式，可以键入命令a或者i；如果需要从文本模式返回，则按Esc键即可。在命令模式下输入“:”即可切换到末行模式，然后输入命令</p><h1><span id="vim-ji-chu-cao-zuo">vim基础操作</span><a href="#vim-ji-chu-cao-zuo" class="header-anchor">#</a></h1><p>vim是从 vi 发展出来的一个文本编辑器 。代码补完、编译及错误跳转等方便编程的功能特别丰富</p><p><strong>进入插入模式:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">i: 在光标前插入一个字符</span><br><span class="line">a: 在光标后插入一个字符 </span><br><span class="line">o: 向下新开一行,插入行首 </span><br><span class="line">I: 插入行首 </span><br><span class="line">A: 插入行未 </span><br><span class="line">O: 向上新开一行,插入行首</span><br></pre></td></tr></table></figure><p><strong>进⼊命令模式:</strong> ESC:从插⼊模式或末⾏模式进⼊命令模式</p><p><strong>移动光标:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">h: 左移</span><br><span class="line">l: 右移</span><br><span class="line">j: 下移</span><br><span class="line">k: 上移</span><br><span class="line"></span><br><span class="line">H: 光标移动到当前屏幕上方</span><br><span class="line">M: 光标移动到当前屏幕中间⾏</span><br><span class="line">L: 光标移动到屏幕下方</span><br><span class="line"></span><br><span class="line">Ctr-f: 向下翻⼀屏</span><br><span class="line">Ctr-b: 向上翻⼀屏</span><br><span class="line">Ctr-d: 向下翻半屏</span><br><span class="line">Ctr-u: 向上翻半屏</span><br><span class="line"></span><br><span class="line">G:快速回到整个代码行的最后一行</span><br><span class="line">gg:快速回到整个代码的第一行</span><br><span class="line">20G:快速定位到第20行代码</span><br><span class="line"></span><br><span class="line">w: 向后跳一个单词的长度，即跳到下一个单词的开始处</span><br><span class="line">b: 向前跳一个单词的长度，即跳到上一个单词的开始处</span><br><span class="line">&#123;: 按段移动,上移</span><br><span class="line">&#125;: 按段移动,下移</span><br><span class="line"></span><br><span class="line">gg: 光标移动⽂件开头</span><br><span class="line">G: 光标移动到⽂件末尾</span><br></pre></td></tr></table></figure><p> <strong>删除（剪切）命令:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">dd: 删除光标所在⾏,n dd 删除指定的⾏数 </span><br><span class="line">D: 从当前光标开始前切，一直到行末</span><br><span class="line">d0: 从当前光标开始前切，一只到行首</span><br><span class="line">dw: 删除光标开始位置的单词,包含光标所在字符</span><br><span class="line">x: 删除光标后⼀个字符,相当于 Del</span><br><span class="line">X: 删除光标前⼀个字符,相当于 Backspace</span><br><span class="line">u: ⼀步⼀步撤销</span><br><span class="line">Ctr-r: 反撤销</span><br></pre></td></tr></table></figure><p><strong>复制粘贴:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yy: 复制当前行,</span><br><span class="line">n yy: 复制 n 行 </span><br><span class="line">p: 在光标所在位置向下新开辟一行,粘贴</span><br></pre></td></tr></table></figure><p><strong>文本行移动:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">v,V:选中一片</span><br><span class="line">&gt;&gt;: ⽂本⾏右移</span><br><span class="line">&lt;&lt;: ⽂本⾏左移</span><br><span class="line">.: 重复上一次操作的命令</span><br></pre></td></tr></table></figure><p><strong>替换操作:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">r: 替换当前字符 </span><br><span class="line">R: 替换当前行光标后的字符</span><br></pre></td></tr></table></figure><p><strong>查找命令:</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/: str查找</span><br><span class="line">n: 下一个</span><br><span class="line">N：上一个</span><br></pre></td></tr></table></figure><p><strong>替换命令:</strong></p><p>把abc全部替换成123</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">末行模式下，将当前文件中的所有abc替换成123</span><br><span class="line">:%s/abc/123/g</span><br><span class="line">末行模式下，将第一行至第10行之间的abc替换成123</span><br><span class="line">:1, 10s/abc/123/g</span><br></pre></td></tr></table></figure><p>末行模式：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">w:保存</span><br><span class="line">q:退出</span><br><span class="line">wq:保存并且退出</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -195,7 +382,7 @@
     <link href="http://baofengketang.com/2018/04/13/linux/linux_02/"/>
     <id>http://baofengketang.com/2018/04/13/linux/linux_02/</id>
     <published>2018-04-13T09:39:43.000Z</published>
-    <updated>2018-05-03T01:54:32.000Z</updated>
+    <updated>2018-05-03T03:27:56.000Z</updated>
     
     <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#linux-xi-tong-de-chang-yong-ming-ling-cao-zuo">Linux系统的常用命令操作</a><ul><li><a href="#ming-ling-de-ge-shi">命令的格式</a></li><li><a href="#cha-kan-bang-zhu-wen-dang">查看帮助文档</a></li><li><a href="#wen-jian-yu-mu-lu">文件与目录</a></li><li><a href="#linux-ming-ling">Linux命令</a></li></ul></li></ul><!-- tocstop --></div><h1><span id="linux-xi-tong-de-chang-yong-ming-ling-cao-zuo">Linux系统的常用命令操作</span><a href="#linux-xi-tong-de-chang-yong-ming-ling-cao-zuo" class="header-anchor">#</a></h1><h2><span id="ming-ling-de-ge-shi">命令的格式</span><a href="#ming-ling-de-ge-shi" class="header-anchor">#</a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">command [-options] [parameter1] …</span><br></pre></td></tr></table></figure><p>说明：</p><p>command: 命令名,相应功能的英⽂单词或单词的缩写 [-options]： 选项,可⽤来对命令进⾏控制， 也可以省略， []代表可选 parameter1 …： 传给命令的参数： 可以是零个⼀个或多个</p><p>案例：</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523885414.png?imageMogr2/thumbnail/!70p" alt=""></p><h2><span id="cha-kan-bang-zhu-wen-dang">查看帮助文档</span><a href="#cha-kan-bang-zhu-wen-dang" class="header-anchor">#</a></h2><p><strong>–help</strong></p><p>⼀般是linux命令⾃带的帮助信息</p><p>如： ls –help</p><p><strong>man( manual)</strong></p><p>man是linux提供的⼀个⼿册， 包含了绝⼤部分的命令、 函数使⽤说明该⼿册分成很多章节（section） ， 使⽤man时可以指定不同的章节来浏览。</p><p>例： man ls ; man 2 printf</p><p>man中各个section意义如下：</p><ol><li>Standard commands（标准命令）</li><li>System calls（系统调⽤， 如open,write）</li><li>Library functions（库函数， 如printf,fopen）</li><li>Special devices（设备⽂件的说明， /dev下各种设备）</li><li>File formats（⽂件格式， 如passwd）</li><li>Games and toys（游戏和娱乐）</li><li>Miscellaneous（杂项、 惯例与协定等， 例如Linux档案系统、 ⽹络协定、 ASCII 码；environ全局变量）</li><li>Administrative Commands（管理员命令， 如ifconfig）</li></ol><p>man是按照⼿册的章节号的顺序进⾏搜索的</p><p> man设置了如下的功能键：</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523887426.png?imageMogr2/thumbnail/!70p" alt=""></p><p><strong>自动补全</strong></p><p>在敲出命令的前⼏个字⺟的同时， 按下<strong>tab</strong>键， 系统会⾃动帮我们补全命令</p><p><strong>历史命令</strong></p><p>当系统执⾏过⼀些命令后， 可按上下键翻看以前的命令， <strong>history</strong>将执⾏过的命令列举出来</p><h2><span id="wen-jian-yu-mu-lu">文件与目录</span><a href="#wen-jian-yu-mu-lu" class="header-anchor">#</a></h2><p>在 windows 平台下， 打开“计算机”， 我们看到的是⼀个个的驱动器盘， 每个驱动器都有⾃⼰的根⽬录结构， 这样形成了多个树并列的情形。在 Linux 下， 我们是看不到这些驱动器盘符， 我们看到的是⽂件夹（⽬录） </p><p><strong>Unix系统的目录结构（了解）</strong></p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523583223.png?imageMogr2/thumbnail/!70p" alt=""></p><ul><li><p>/： 根⽬录， ⼀般根⽬录下只存放⽬录， 在Linux下有且只有⼀个根⽬录。 所有的东⻄都是从这⾥开始。 当你在终端⾥输⼊“/home”， 你其实是在告诉电脑， 先从/（根⽬录） 开始， 再进⼊到home⽬录。</p></li><li><p>/bin、 /usr/bin: 可执⾏⼆进制⽂件的⽬录， 如常⽤的命令ls、 tar、 mv、 cat等。</p></li><li><p>/boot： 放置linux系统启动时⽤到的⼀些⽂件， 如Linux的内核⽂件： /boot/vmlinuz，系统引导管理器： /boot/grub。</p></li><li><p>/dev： 存放linux系统下的设备⽂件， 访问该⽬录下某个⽂件， 相当于访问某个设备，常⽤的是挂载光驱 mount /dev/cdrom /mnt。</p></li><li><p>/etc： 系统配置⽂件存放的⽬录， 不建议在此⽬录下存放可执⾏⽂件</p></li><li><p>/home： 系统默认的⽤户家⽬录， 新增⽤户账号时， ⽤户的家⽬录都存放在此⽬下， ~表示当前⽤户的家⽬录， ~edu 表示⽤户 edu 的家⽬录。</p></li><li><p>/lib、 /usr/lib、 /usr/local/lib： 系统使⽤的函数库的⽬录， 程序在执⾏过程中， 需要调⽤⼀些额外的参数时需要函数库的协助。</p></li><li><p>/lost+fount： 系统异常产⽣错误时， 会将⼀些遗失的⽚段放置于此⽬录下。/mnt: /media： 光盘默认挂载点， 通常光盘挂载于 /mnt/cdrom 下， 也不⼀定， 可以选择任意位置进⾏挂载。</p></li><li><p>/opt： 给主机额外安装软件所摆放的⽬录。</p></li><li><p>/proc： 此⽬录的数据都在内存中， 如系统核⼼， 外部设备， ⽹络状态， 由于数据都存放于内存中， 所以不占⽤磁盘空间， ⽐较重要的⽬录有/proc/cpuinfo、 /proc/interrupts、 /proc/dma、 /proc/ioports、/proc/net/* 等。</p></li><li><p>/root： 系统管理员root的家⽬录。</p></li><li><p>/sbin、 /usr/sbin、 /usr/local/sbin： 放置系统管理员使⽤的可执⾏命令， 如fdisk、shutdown、 mount 等。 与 /bin 不同的是， 这⼏个⽬录是给系统管理员 root使⽤的命令， ⼀般⽤户只能”查看”⽽不能设置和使⽤。</p></li><li><p>/tmp： ⼀般⽤户或正在执⾏的程序临时存放⽂件的⽬录， 任何⼈都可以访问， 重要数据不可放置在此⽬下。</p></li><li><p>/srv： 服务启动之后需要访问的数据⽬录， 如 www 服务需要访问的⽹⻚数据存放在/srv/www 内。</p></li><li><p>/usr： 应⽤程序存放⽬录， /usr/bin 存放应⽤程序， /usr/share 存放共享数据， /usr/lib存放不能直接运⾏的， 却是许多程序运⾏所必需的⼀些函数库⽂件。 /usr/local: 存放软件升级包。 /usr/share/doc: 系统说明⽂件存放⽬录。 /usr/share/man: 程序说明⽂件存放⽬录。</p></li><li><p>/var： 放置系统执⾏过程中经常变化的⽂件， 如随时更改的⽇志⽂件</p></li><li><p>/var/log， /var/log/message： 所有的登录⽂件存放⽬录， /var/spool/mail： 邮件存放的⽬录， /var/run:程序或服务启动后， 其PID存放在该⽬录下</p><p><strong>用户目录（重点）</strong></p><p>位于/home/user， 称之为⽤户⼯作⽬录或家⽬录,表示⽅式</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">jinzhong@ubuntu:~$ <span class="built_in">cd</span> ~</span><br><span class="line">jinzhong@ubuntu:~$ <span class="built_in">pwd</span></span><br><span class="line">/home/jinzhong</span><br></pre></td></tr></table></figure><p>​</p><p><strong>相对路径与绝对路径</strong></p><p>绝对路径： 从/⽬录开始描述的路径为绝对路径</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">jinzhong@ubuntu:~$ <span class="built_in">cd</span> /home/jinzhong/</span><br><span class="line">jinzhong@ubuntu:~$ <span class="built_in">pwd</span></span><br><span class="line">/home/jinzhong</span><br></pre></td></tr></table></figure><p> 相对路径: 从当前位置开始描述的路径为相对路径</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">jinzhong@ubuntu:~$ cd .</span><br><span class="line">jinzhong@ubuntu:~$ pwd</span><br><span class="line">/home/jinzhong</span><br><span class="line">jinzhong@ubuntu:~$ cd ..</span><br><span class="line">jinzhong@ubuntu:/home$ pwd</span><br><span class="line">/home</span><br><span class="line">jinzhong@ubuntu:/home$</span><br></pre></td></tr></table></figure><p><strong>.和..</strong></p><p> 每个⽬录下都有.和..</p><p>. 表示当前⽬录</p><p>.. 表示上⼀级⽬录， 即⽗⽬录</p><p>根⽬录下的.和..都表示当前⽬录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd:切换工作目录</span><br><span class="line">cd ~ :切换到家目录</span><br><span class="line">cd .:切换到当前目录</span><br><span class="line">cd ..:切换到上级目录</span><br><span class="line">cd -:切换到上次所在目录</span><br></pre></td></tr></table></figure><p>​</p></li></ul><h2><span id="linux-ming-ling">Linux命令</span><a href="#linux-ming-ling" class="header-anchor">#</a></h2><p><strong>打开终端：</strong></p><p>​    放大：ctrl+shift++</p><p>​    缩小：ctrl+-</p><p><strong>ls命令:显示目录中的文件</strong></p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523594563.png?imageMogr2/thumbnail/!70p" alt=""></p><p>ls支持通配符</p><table><thead><tr><th style="text-align:center">通配符</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center">＊</td><td style="text-align:center">⽂件代表⽂件名中所有字符</td></tr><tr><td style="text-align:center">ls te*</td><td style="text-align:center">查找以te开头的⽂</td></tr><tr><td style="text-align:center">ls *html</td><td style="text-align:center">查找结尾为html的⽂件</td></tr><tr><td style="text-align:center">？</td><td style="text-align:center">代表⽂件名中任意⼀个字符</td></tr><tr><td style="text-align:center">ls ?.c</td><td style="text-align:center">只找第⼀个字符任意， 后缀为.c的⽂件</td></tr><tr><td style="text-align:center">ls a.?</td><td style="text-align:center">只找只有3个字符， 前2字符为a.， 最后⼀个字符任意的文件</td></tr><tr><td style="text-align:center">[]</td><td style="text-align:center">[”和“]”将字符组括起来， 表示可以匹配字符组中的任意⼀个。 “-”⽤于表示字符范围。</td></tr><tr><td style="text-align:center">[abc]</td><td style="text-align:center">匹配a、 b、 c中的任意⼀个</td></tr><tr><td style="text-align:center">[a-f]</td><td style="text-align:center">匹配从a到f范围内的的任意⼀个字符</td></tr><tr><td style="text-align:center">ls [a-f]*</td><td style="text-align:center">找到从a到f范围内的的任意⼀个字符开头的⽂件</td></tr><tr><td style="text-align:center">ls a-f</td><td style="text-align:center">查找⽂件名为a-f的⽂件,当“-”处于⽅括号之外失去通配符的作用</td></tr><tr><td style="text-align:center">\</td><td style="text-align:center">如果要使通配符作为普通字符使⽤， 可以在其前⾯加上转义字符。 “?”和“*”处于⽅括号内时不⽤使⽤转义字符就失去通配符的作⽤。</td></tr><tr><td style="text-align:center">ls *</td><td style="text-align:center">查找⽂件名为*a的⽂件</td></tr><tr><td style="text-align:center"></td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ls ：显示目录中的文件</span><br><span class="line">ls -a:显示目录中所有的文件，包含隐藏文件</span><br><span class="line">ls -al:显示目录中的所有文件，以列表形式显示</span><br><span class="line">clear:清屏</span><br><span class="line">pwd:显示当前路径</span><br></pre></td></tr></table></figure><p><strong>输出重定向命令</strong></p><p>Linux允许将命令执行结果重定向到一个文件，本应显示在终端上的内容保存到指定文件中。</p><p>如：ls &gt; test.txt ( test.txt 如果不存在，则创建，存在则覆盖其内容 )</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523893055.png?imageMogr2/thumbnail/!70p" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ls &gt;hello.txt:将显示的内容放在文件中</span><br><span class="line">ls&gt;&gt;world.txt:将显示的内容追加到文件中</span><br><span class="line">&gt;：会将文件原有的内容删除，而&gt;&gt;不会</span><br></pre></td></tr></table></figure><p>重定向可以和more结合使用</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">将ls的内容放入到文件中，然后在采用more进行查看</span><br><span class="line">ls /bin -alh -&gt;hello.txt</span><br><span class="line">more hello.txt</span><br></pre></td></tr></table></figure><p><strong>分屏显示（more）</strong></p><p>查看内容时， 在信息过⻓⽆法在⼀屏上显示时， 会出现快速滚屏， 使得⽤户⽆法看清⽂件的内容， 此时可以使⽤more命令， 每次只显示⼀⻚， 按下空格键可以显示下⼀⻚， 按下q键退出显示， 按下h键可以获取帮助。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">more hello.txt</span><br><span class="line">f:forward</span><br><span class="line">b:back</span><br><span class="line">q:退出</span><br></pre></td></tr></table></figure><p><strong>创建目录</strong></p><p>通过mkdir命令可以创建一个新的目录。参数-p可递归创建目录。</p><p>需要注意的是新建目录的名称不能与当前目录中已有的目录或文件同名，并且目录创建者必须对当前目录具有写权限。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir 目录名：创建一个目录</span><br><span class="line">mkdir a/b/c/e -p:创建多级目录</span><br></pre></td></tr></table></figure><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523594765.png?imageMogr2/thumbnail/!70p" alt=""></p><p><strong>删除目录</strong></p><p>可通过rm删除文件或目录。使用rm命令要小心，因为文件删除后不能恢复。为了防止文件误删，可以在rm后使用-i参数以逐个确认要删除的文件。</p><p>常用参数及含义如下表所示：</p><table><thead><tr><th>参数</th><th>含义</th></tr></thead><tbody><tr><td>-i</td><td>以进行交互式方式执行</td></tr><tr><td>-f</td><td>强制删除，忽略不存在的文件，无需提示</td></tr><tr><td>-r</td><td>递归地删除目录下的内容，删除文件夹时必须加此参数</td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rmdir 目录：删除目录，但是注意该目录中不能存在文件</span><br><span class="line">rm -rf 目录:递归删除目录</span><br><span class="line">rm:既可以删除文件，也可以删除文件夹</span><br></pre></td></tr></table></figure><p><strong>创建文件（在kingdom目录下）</strong></p><p>linux中如果文件以.开头，则这个文件为隐藏文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch 文件：创建一个文件</span><br></pre></td></tr></table></figure><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523594926.png?imageMogr2/thumbnail/!70p" alt=""></p><p><strong>查看文件</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat 文件名：查看文件的内容</span><br></pre></td></tr></table></figure><p><strong>管道</strong></p><p>管道：一个命令的输出可以通过管道做为另一个命令的输入。</p><p>管道我们可以理解现实生活中的管子，管子的一头塞东西进去，另一头取出来，这里“ | ”的左右分为两端，左端塞东西(写)，右端取东西(读)。</p><p>改写上面的案例</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls /bin -alh -&gt;hello.txt ｜more</span><br></pre></td></tr></table></figure><p><strong>链接</strong></p><p>Linux链接文件类似于Windows下的快捷方式。</p><p>链接文件分为软链接和硬链接。</p><p>软链接：软链接不占用磁盘空间，源文件删除则软链接失效。</p><p>硬链接：硬链接只能链接普通文件，不能链接目录。</p><p>使用格式：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ln 源文件 链接文件</span><br><span class="line">ln -s 源文件 链接文件</span><br></pre></td></tr></table></figure><p>软连接：类比windows中的快捷方式，软连接不会增加硬连接的连接数量，源文件删除会影响到软连接</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">创建一个1.txt的软连接，</span><br><span class="line">ln -s 1.txt 1_softlink.txt</span><br></pre></td></tr></table></figure><p>硬连接：会增加硬连接的连接数量,原文件删除不会影响到影连接</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln 1.txt 1_hardlink.txt</span><br></pre></td></tr></table></figure><p><strong>通过cat与重定向可以合并多个文件</strong></p><p>将文件1与文件2的内容合并到new.txt文件中</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat 文件1 文件2 &gt; new.txt</span><br></pre></td></tr></table></figure><p><strong>拷贝文件复制cp命令</strong></p><p>cp命令的功能是将给出的文件或目录复制到另一个文件或目录中，相当于DOS下的copy命令。</p><p>常用选项说明：</p><table><thead><tr><th>选项</th><th>含义</th></tr></thead><tbody><tr><td>-a</td><td>该选项通常在复制目录时使用，它保留链接、文件属性，并递归地复制目录，简单而言，保持文件原有属性。</td></tr><tr><td>-f</td><td>已经存在的目标文件而不提示</td></tr><tr><td>-i</td><td>交互式复制，在覆盖目标文件之前将给出提示要求用户确认</td></tr><tr><td>-r</td><td>若给出的源文件是目录文件，则cp将递归复制该目录下的所有子目录和文件，目标文件必须为一个目录名。</td></tr><tr><td>-v</td><td>显示拷贝进度</td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp 文件 /home/jinzhong -r</span><br></pre></td></tr></table></figure><p><strong>移动文件mv</strong></p><p>用户可以使用mv命令来移动文件或目录，也可以给文件或目录重命名。</p><p>常用选项说明：</p><table><thead><tr><th>选项</th><th>含义</th></tr></thead><tbody><tr><td>-f</td><td>禁止交互式操作，如有覆盖也不会给出提示</td></tr><tr><td>-i</td><td>确认交互方式操作，如果mv操作将导致对已存在的目标文件的覆盖，系统会询问是否重写，要求用户回答以避免误覆盖文件</td></tr><tr><td>-v</td><td>显示移动进度</td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">剪切:mv 111.txt /home/jinzhong</span><br><span class="line">重命名:mv 源文件名 新文件名</span><br></pre></td></tr></table></figure><p><strong>文本搜索</strong></p><p>Linux系统中grep命令是一种强大的文本搜索工具，grep允许对文本文件进行模式查找。如果找到匹配模式， grep打印包含模式的所有行。</p><p>grep一般格式为：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep [-选项] ‘搜索内容串’文件名</span><br></pre></td></tr></table></figure><p>在grep命令中输入字符串参数时，最好引号或双引号括起来。例如：grep‘a ’1.txt。</p><p>常用选项说明：</p><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-v</td><td>显示不包含匹配文本的所有行（相当于求反)</td></tr><tr><td>-n</td><td>显示匹配行及行号</td></tr><tr><td>-i</td><td>忽略大小写</td></tr></tbody></table><p>grep搜索内容串可以是正则表达式。</p><p>正则表达式是对字符串操作的一种逻辑公式，就是用事先定义好的一些特定字符、及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">grep &quot;ntfs&quot; hello.txt:查找文件中包含ntfs的文本</span><br><span class="line">grep -n &quot;ntfs&quot; hello.txt :显示位于哪一行</span><br><span class="line">grep &quot;^ntfs&quot; hello.txt:查找以ntfs开头的文本</span><br></pre></td></tr></table></figure><p><strong>查找文件：find</strong></p><p>find命令功能非常强大，通常用来在特定的目录下搜索符合条件的文件，也可以用来搜索特定用户属主的文件。</p><p>常用用法：</p><table><thead><tr><th>命令</th><th>含义</th></tr></thead><tbody><tr><td>find ./ -name test.sh</td><td>查找当前目录下所有名为test.sh的文件</td></tr><tr><td>find ./ -name ‘*.sh’</td><td>查找当前目录下所有后缀为.sh的文件</td></tr><tr><td>find ./ -name “[A-Z]*”</td><td>查找当前目录下所有以大写字母开头的文件</td></tr><tr><td>find /tmp -size 2M</td><td>查找在/tmp 目录下等于2M的文件</td></tr><tr><td>find /tmp -size +2M</td><td>查找在/tmp 目录下大于2M的文件</td></tr><tr><td>find /tmp -size -2M</td><td>查找在/tmp 目录下小于2M的文件</td></tr><tr><td>find ./ -size +4k -size -5M</td><td>查找当前目录下大于4k，小于5M的文件</td></tr><tr><td>find ./ -perm 777</td><td>查找当前目录下权限为 777 的文件或目录</td></tr></tbody></table><p><strong>归档与解压</strong></p><p>计算机中的数据经常需要备份，tar是Unix/Linux中最常用的备份工具，此命令可以把一系列文件归档到一个大文件中，也可以把档案文件解开以恢复数据。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">将所有以txt结尾的文件打包称test.tar文件</span><br><span class="line">tar -cvf test.tar *.txt</span><br><span class="line">解包</span><br><span class="line">tar -xvf test.tar</span><br></pre></td></tr></table></figure><p>压缩与解压缩</p><p>gz方式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">压缩</span><br><span class="line">tar -zcvf test.tar.gz *.txt</span><br><span class="line">解压缩</span><br><span class="line">tar -zxvf test.tar.gz</span><br></pre></td></tr></table></figure><p>bz2方式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">压缩</span><br><span class="line">tar -jcvf test.tar.bz2 *.txt</span><br><span class="line">解压缩</span><br><span class="line">tar -jxvf test.tar.bz2</span><br></pre></td></tr></table></figure><p>zip方式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">压缩</span><br><span class="line">zip hello.zip *.txt</span><br><span class="line">解压缩</span><br><span class="line">unzip hello.zip</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -244,38 +431,6 @@
     
     
       <category term="mybatis" scheme="http://baofengketang.com/tags/mybatis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux基础(一)</title>
-    <link href="http://baofengketang.com/2018/04/13/linux/linux_01/"/>
-    <id>http://baofengketang.com/2018/04/13/linux/linux_01/</id>
-    <published>2018-04-13T07:06:54.000Z</published>
-    <updated>2018-04-16T12:05:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#linux-xi-tong-de-fa-zhan-shi">Linux系统的发展史</a><ul><li><a href="#unix-xi-tong">Unix系统</a></li><li><a href="#minix">Minix</a></li><li><a href="#liunx">Liunx</a></li><li><a href="#zong-jie">总结</a></li></ul></li></ul><!-- tocstop --></div><h1><span id="linux-xi-tong-de-fa-zhan-shi">Linux系统的发展史</span><a href="#linux-xi-tong-de-fa-zhan-shi" class="header-anchor">#</a></h1><h2><span id="unix-xi-tong">Unix系统</span><a href="#unix-xi-tong" class="header-anchor">#</a></h2><p>1965年之前的时候， 电脑并不像现在⼀样普遍， 它可不是⼀般⼈能碰的起的， 除⾮是军事或者学院的研究机构， ⽽且当时⼤型主机⾄多能提供30台终端（30个键盘、 显示器)， 连接⼀台电脑</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523518478.png?imageMogr2/thumbnail/!70p" alt=""></p><p>为了解决数量不够⽤的问题，1965年左后由⻉尔实验室、 麻省理⼯学院以及通⽤电⽓共同发起了<strong>Multics</strong>项⽬， 想让⼤型主机⽀持300台终端</p><p>1969年前后这个项⽬进度缓慢， 资⾦短缺， ⻉尔实验室退出了研究</p><p>1969年从这个项⽬中退出的Ken Thompson当时在实验室⽆聊时， 为了让⼀台空闲的电脑上能够运⾏“星际旅⾏”游⾏， 在8⽉份左右趁着其妻⼦探亲的时间， ⽤了1个⽉的时间编写出了Unix操作系统的原型</p><p>1970年， 美国⻉尔实验室的 <strong>Ken Thompson</strong>， 以 BCPL语⾔ 为基础， 设计出很简单且很接近硬件的 B语⾔（取BCPL的⾸字⺟） ， 并且他⽤B语⾔写了第⼀个UNIX操作系统。因为B语⾔的跨平台性较差， 为了能够在其他的电脑上也能够运⾏这个⾮常棒的Unix操作系统， Dennis Ritchie和Ken Thompson 从B语⾔的基础上准备研究⼀个更好的语言</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523518810.png?imageMogr2/thumbnail/!70p" alt=""></p><p>1972年， 美国⻉尔实验室的 Dennis Ritchie在B语⾔的基础上最终设计出了⼀种新的语⾔， 他取了BCPL的第⼆个字⺟作为这种语⾔的名字， 这就是C语⾔</p><p>1973年初， C语⾔的主体完成。 Thompson和Ritchie迫不及待地开始⽤它完全重写了现在⼤名鼎鼎的Unix操作系统</p><h2><span id="minix">Minix</span><a href="#minix" class="header-anchor">#</a></h2><p>因为AT&amp;T(通⽤电⽓)的政策改变， 在Version 7 Unix推出之后， 发布新的使⽤条款， 将UNIX源代码私有化， 在⼤学中不再能使⽤UNIX源代码。 Andrew S. Tanenbaum(塔能鲍姆)教授为了能在课堂上教授学⽣操作系统运作的实务细节， 决定在不使⽤任何AT&amp;T的源代码前提下， ⾃⾏开发与UNIX兼容的操作系统， 以避免版权上的争议。 他以⼩型UNIX（mini-UNIX） 之意， 将它称为MINIX(仅用于教学，不做商用)</p><h2><span id="liunx">Liunx</span><a href="#liunx" class="header-anchor">#</a></h2><p>因为Minix只是教学使⽤， 因此功能并不强， 因此Torvalds利⽤GNU的bash当做开发环境， gcc当做编译⼯具， 编写了Linux内核-v0.02， 但是⼀开始Linux并不能兼容Unix， 即Unix上跑的应⽤程序不能在Linux上跑， 即应⽤程序与内核之间的接⼝不⼀致， 因为Unix是遵循POSIX规范的， 因此Torvalds修改了Linux， 并遵循POSIX（Portable OperatingSystem Interface， 他规范了应⽤程序与内核的接⼝规范） ； ⼀开始Linux只适⽤于386，后来经过全世界的⽹友的帮助， 最终能够兼容多种硬件；</p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523521142.png?imageMogr2/thumbnail/!70p" alt=""></p><h2><span id="zong-jie">总结</span><a href="#zong-jie" class="header-anchor">#</a></h2><p><strong>Minix没有⽕起来的原因</strong></p><blockquote><p>Minix的创始⼈说， MINIX 3没有统治世界是源于他在1992年犯下的⼀个错误， 当时他认为BSD必然会⼀统天下， 因为它是⼀个更稳定和更成熟的系统， 其它操作系统难以与之竞争。 因此他的MINIX的重⼼集中在教育上。 四名BSD开发者已经成⽴了⼀家公司销售BSD系统， 他们甚⾄还有⼀个有趣的电话号码1-800-ITS-UNIX。 然⽽他们正因为这个电话号码⽽惹⽕上身。 美国电话电报公司因电话号码⽽提起诉讼。官司打了三年才解决。 在此期间， BSD陷于停滞， ⽽Linux则借此⼀⻜冲天。 他的错误在于没有意识官司竟然持续了如此⻓的时间， 以及BSD会因此受到削弱。 如果美国电话电报公司没有起诉， Linux永远不会流⾏起来， BSD将统治世界。</p></blockquote><p><strong>Linux现在版本</strong></p><p><img src="http://p6wdo7p1v.bkt.clouddn.com/1523524203.png?imageMogr2/thumbnail/!70p" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;div class=&quot;toc&quot;&gt;
-
-&lt;!-- toc --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#linux-xi-tong-de-fa-zhan-shi&quot;&gt;Linux系统的发展史&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#unix-xi-tong&quot;&gt;Unix系统&lt;/a&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="linux" scheme="http://baofengketang.com/categories/linux/"/>
-    
-    
-      <category term="linux" scheme="http://baofengketang.com/tags/linux/"/>
-    
-      <category term="操作系统" scheme="http://baofengketang.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
