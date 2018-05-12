@@ -4,8 +4,68 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_06/</loc>
+    <lastmod>2018-05-10T14:57:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>爬虫实践－爬取51job岗位</title>
+        <pubTime>2018-05-10T14:54:03.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+         
+           
+             
+              <breadCrumb title="爬虫" url="http://baofengketang.com/categories/%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_04/</loc>
+    <lastmod>2018-05-10T10:11:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python网络爬虫实践－腾讯新闻</title>
+        <pubTime>2018-05-10T03:36:41.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+         
+           
+             
+              <breadCrumb title="爬虫" url="http://baofengketang.com/categories/%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_05/</loc>
+    <lastmod>2018-05-10T09:29:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫实践－今日头条（获取js动态内容）</title>
+        <pubTime>2018-05-10T08:03:34.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+         
+           
+             
+              <breadCrumb title="爬虫" url="http://baofengketang.com/categories/%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/05/10/python_data/python_data_03/</loc>
-    <lastmod>2018-05-10T03:19:27.000Z</lastmod>
+    <lastmod>2018-05-10T03:36:26.000Z</lastmod>
     <data>
         <display>
         <title>Python爬虫入门</title>
