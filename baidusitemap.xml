@@ -4,19 +4,41 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/05/04/linux/linux_01/</loc>
+    <lastmod>2018-05-13T04:43:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux基础(一)</title>
+        <pubTime>2018-05-04T08:20:36.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>操作系统</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
-    <lastmod>2018-05-13T04:40:43.000Z</lastmod>
+    <lastmod>2018-05-13T04:43:03.000Z</lastmod>
     <data>
         <display>
         <title>Java入门第一讲</title>
         <pubTime>2018-04-10T05:11:58.000Z</pubTime>
         
-        <tag>Java</tag>
+        <tag>java</tag>
          
          
            
              
-              <breadCrumb title="Java" url="http://baofengketang.com/categories/Java/"/>
+              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
           
         </display>
     </data>
@@ -371,28 +393,6 @@
         <display>
         <title>Linux基础(三)</title>
         <pubTime>2018-05-03T01:56:59.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>操作系统</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/05/04/linux/linux_01/</loc>
-    <lastmod>2018-05-04T08:20:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>Linux基础(一)</title>
-        <pubTime>2018-05-04T08:20:36.000Z</pubTime>
         
         <tag>linux</tag>
          
