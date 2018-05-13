@@ -4,8 +4,68 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
+    <lastmod>2018-05-13T04:38:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>Java入门第一讲</title>
+        <pubTime>2018-04-10T05:11:58.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://baofengketang.com/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/13/python_base/python_13/</loc>
+    <lastmod>2018-05-13T04:18:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(十三)</title>
+        <pubTime>2018-05-13T03:52:56.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
+    <lastmod>2018-05-13T03:52:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(十二)</title>
+        <pubTime>2018-05-09T06:43:57.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/20/python_base/python_02/</loc>
-    <lastmod>2018-05-13T03:40:03.000Z</lastmod>
+    <lastmod>2018-05-13T03:48:17.000Z</lastmod>
     <data>
         <display>
         <title>Python基础(二)</title>
@@ -138,26 +198,6 @@
            
              
               <breadCrumb title="爬虫" url="http://baofengketang.com/categories/%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
-    <lastmod>2018-05-09T23:01:28.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python基础(十二)</title>
-        <pubTime>2018-05-09T06:43:57.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
           
         </display>
     </data>
@@ -492,26 +532,6 @@
            
              
               <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
-    <lastmod>2018-05-02T02:55:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>Java入门第一讲</title>
-        <pubTime>2018-04-10T05:11:58.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="http://baofengketang.com/categories/Java/"/>
           
         </display>
     </data>

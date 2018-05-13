@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
+    
+    <lastmod>2018-05-13T04:38:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/13/python_base/python_13/</loc>
+    
+    <lastmod>2018-05-13T04:18:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
+    
+    <lastmod>2018-05-13T03:52:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://baofengketang.com/2018/04/20/python_base/python_02/</loc>
     
-    <lastmod>2018-05-13T03:40:03.000Z</lastmod>
+    <lastmod>2018-05-13T03:48:17.000Z</lastmod>
     
   </url>
   
@@ -54,13 +75,6 @@
     <loc>http://baofengketang.com/2018/05/10/python_data/python_data_01/</loc>
     
     <lastmod>2018-05-10T01:13:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
-    
-    <lastmod>2018-05-09T23:01:28.000Z</lastmod>
     
   </url>
   
@@ -173,13 +187,6 @@
     <loc>http://baofengketang.com/2018/04/13/linux/linux_02/</loc>
     
     <lastmod>2018-05-03T03:27:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
-    
-    <lastmod>2018-05-02T02:55:53.000Z</lastmod>
     
   </url>
   
