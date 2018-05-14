@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/05/13/hexo/hexo_02/</loc>
+    <lastmod>2018-05-14T15:27:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用hexo搭建个人博客</title>
+        <pubTime>2018-05-13T15:32:44.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://baofengketang.com/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/04/23/python_base/python_03/</loc>
     <lastmod>2018-05-13T16:49:59.000Z</lastmod>
     <data>
@@ -17,26 +37,6 @@
            
              
               <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/05/13/hexo/hexo_02/</loc>
-    <lastmod>2018-05-13T16:11:41.000Z</lastmod>
-    <data>
-        <display>
-        <title>使用hexo搭建个人博客</title>
-        <pubTime>2018-05-13T15:32:44.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://baofengketang.com/categories/hexo/"/>
           
         </display>
     </data>
