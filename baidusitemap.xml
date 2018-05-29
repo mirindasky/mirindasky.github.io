@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>http://baofengketang.com/2018/05/29/mobile/mobile01/</loc>
+    <lastmod>2018-05-29T09:08:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>移动互联网</title>
+        <pubTime>2018-05-29T08:08:57.000Z</pubTime>
+        
+        <tag>移动互联</tag>
+         
+         
+           
+             
+              <breadCrumb title="移动互联" url="http://baofengketang.com/categories/%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/29/java/java02/</loc>
+    <lastmod>2018-05-29T02:57:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Java8学习笔记（二）</title>
+        <pubTime>2018-05-29T02:37:16.000Z</pubTime>
+        
+        <tag>java</tag>
+         
+         
+           
+             
+              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
+    <lastmod>2018-05-29T02:31:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>Java8学习笔记（一）</title>
+        <pubTime>2018-04-10T05:11:58.000Z</pubTime>
+        
+        <tag>java</tag>
+         
+         
+           
+             
+              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://baofengketang.com/2018/05/04/linux/linux_01/</loc>
     <lastmod>2018-05-24T13:57:38.000Z</lastmod>
     <data>
@@ -632,26 +692,6 @@
            
              
               <breadCrumb title="hexo" url="http://baofengketang.com/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
-    <lastmod>2018-05-13T04:43:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>Java入门第一讲</title>
-        <pubTime>2018-04-10T05:11:58.000Z</pubTime>
-        
-        <tag>java</tag>
-         
-         
-           
-             
-              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
           
         </display>
     </data>
