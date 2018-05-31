@@ -4,28 +4,8 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/29/mobile/mobile01/</loc>
-    <lastmod>2018-05-30T02:34:17.000Z</lastmod>
-    <data>
-        <display>
-        <title>移动互联网</title>
-        <pubTime>2018-05-29T08:08:57.000Z</pubTime>
-        
-        <tag>移动互联</tag>
-         
-         
-           
-             
-              <breadCrumb title="移动互联" url="http://baofengketang.com/categories/%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://baofengketang.com/2018/04/10/java/java01/</loc>
-    <lastmod>2018-05-29T09:18:49.000Z</lastmod>
+    <lastmod>2018-05-31T13:42:20.000Z</lastmod>
     <data>
         <display>
         <title>Java8学习笔记（一）</title>
@@ -37,6 +17,46 @@
            
              
               <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/31/jquery/jquery_01/</loc>
+    <lastmod>2018-05-31T13:41:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>jquery基础（一）</title>
+        <pubTime>2018-05-31T13:40:49.000Z</pubTime>
+        
+        <tag>jquery基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/29/mobile/mobile01/</loc>
+    <lastmod>2018-05-30T02:36:02.000Z</lastmod>
+    <data>
+        <display>
+        <title>移动互联网</title>
+        <pubTime>2018-05-29T08:08:57.000Z</pubTime>
+        
+        <tag>移动互联</tag>
+         
+         
+           
+             
+              <breadCrumb title="移动互联" url="http://baofengketang.com/categories/%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94/"/>
           
         </display>
     </data>
