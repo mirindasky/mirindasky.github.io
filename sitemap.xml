@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://baofengketang.com/about/index.html</loc>
+    
+    <lastmod>2018-06-01T08:38:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://baofengketang.com/2018/05/31/jquery/jquery_01/</loc>
+    
+    <lastmod>2018-06-01T06:42:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://baofengketang.com/2018/05/29/java/java02/</loc>
     
     <lastmod>2018-05-31T13:49:32.000Z</lastmod>
@@ -10,13 +24,6 @@
   
   <url>
     <loc>http://baofengketang.com/2018/05/04/linux/linux_01/</loc>
-    
-    <lastmod>2018-05-31T13:49:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/2018/05/31/jquery/jquery_01/</loc>
     
     <lastmod>2018-05-31T13:49:31.000Z</lastmod>
     
@@ -58,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
+    <loc>http://baofengketang.com/2018/04/11/maven/maven_01/</loc>
     
     <lastmod>2018-05-31T13:49:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/04/11/maven/maven_01/</loc>
+    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
     
     <lastmod>2018-05-31T13:49:26.000Z</lastmod>
     
@@ -107,14 +114,14 @@
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/05/08/python_base/python_08/</loc>
+    <loc>http://baofengketang.com/2018/05/08/python_base/python_07/</loc>
     
     <lastmod>2018-05-31T13:49:21.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/05/08/python_base/python_07/</loc>
+    <loc>http://baofengketang.com/2018/05/08/python_base/python_08/</loc>
     
     <lastmod>2018-05-31T13:49:21.000Z</lastmod>
     
@@ -243,13 +250,6 @@
     <loc>http://baofengketang.com/2018/05/29/mobile/mobile01/</loc>
     
     <lastmod>2018-05-30T02:36:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://baofengketang.com/about/index.html</loc>
-    
-    <lastmod>2018-05-24T08:45:27.000Z</lastmod>
     
   </url>
   

@@ -3,6 +3,27 @@
 
 
     
+    
+  <url>
+    <loc>http://baofengketang.com/2018/05/31/jquery/jquery_01/</loc>
+    <lastmod>2018-06-01T06:42:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>jquery基础（一）</title>
+        <pubTime>2018-05-31T13:40:49.000Z</pubTime>
+        
+        <tag>jquery基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://baofengketang.com/2018/05/29/java/java02/</loc>
     <lastmod>2018-05-31T13:49:32.000Z</lastmod>
@@ -39,26 +60,6 @@
            
              
               <breadCrumb title="linux" url="http://baofengketang.com/categories/linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/05/31/jquery/jquery_01/</loc>
-    <lastmod>2018-05-31T13:49:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>jquery基础（一）</title>
-        <pubTime>2018-05-31T13:40:49.000Z</pubTime>
-        
-        <tag>jquery基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="java" url="http://baofengketang.com/categories/java/"/>
           
         </display>
     </data>
@@ -174,26 +175,6 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
-    <lastmod>2018-05-31T13:49:26.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python基础(一)</title>
-        <pubTime>2018-04-19T03:49:29.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://baofengketang.com/2018/04/11/maven/maven_01/</loc>
     <lastmod>2018-05-31T13:49:26.000Z</lastmod>
     <data>
@@ -209,6 +190,26 @@
            
              
               <breadCrumb title="项目构建" url="http://baofengketang.com/categories/%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
+    <lastmod>2018-05-31T13:49:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python基础(一)</title>
+        <pubTime>2018-04-19T03:49:29.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://baofengketang.com/categories/Python/"/>
           
         </display>
     </data>
@@ -316,12 +317,12 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/08/python_base/python_08/</loc>
+    <loc>http://baofengketang.com/2018/05/08/python_base/python_07/</loc>
     <lastmod>2018-05-31T13:49:21.000Z</lastmod>
     <data>
         <display>
-        <title>Python基础(八)</title>
-        <pubTime>2018-05-08T04:41:28.000Z</pubTime>
+        <title>Python基础(七)</title>
+        <pubTime>2018-05-08T02:00:07.000Z</pubTime>
         
         <tag>Python</tag>
          
@@ -336,12 +337,12 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/08/python_base/python_07/</loc>
+    <loc>http://baofengketang.com/2018/05/08/python_base/python_08/</loc>
     <lastmod>2018-05-31T13:49:21.000Z</lastmod>
     <data>
         <display>
-        <title>Python基础(七)</title>
-        <pubTime>2018-05-08T02:00:07.000Z</pubTime>
+        <title>Python基础(八)</title>
+        <pubTime>2018-05-08T04:41:28.000Z</pubTime>
         
         <tag>Python</tag>
          
@@ -718,7 +719,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://baofengketang.com/2018/04/13/jinhaoze/number1/</loc>

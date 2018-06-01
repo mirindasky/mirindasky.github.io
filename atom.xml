@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>KingDom</title>
+  <title>靳中</title>
   
-  <subtitle>KingDom&#39;s Blog</subtitle>
+  <subtitle>靳中的博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://baofengketang.com/"/>
-  <updated>2018-05-31T13:49:31.000Z</updated>
+  <updated>2018-06-01T06:42:54.000Z</updated>
   <id>http://baofengketang.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://baofengketang.com/2018/05/31/jquery/jquery_01/"/>
     <id>http://baofengketang.com/2018/05/31/jquery/jquery_01/</id>
     <published>2018-05-31T13:40:49.000Z</published>
-    <updated>2018-05-31T13:49:31.000Z</updated>
+    <updated>2018-06-01T06:42:54.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="toc"><!-- toc --><!-- tocstop --></div>]]></content>
+    <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#jquery-ji-chu">Jquery基础</a><ul><li><a href="#wei-shi-me-yao-xue-xi-jquery">为什么要学习Jquery</a></li></ul></li></ul><!-- tocstop --></div><h1><span id="jquery-ji-chu">Jquery基础</span><a href="#jquery-ji-chu" class="header-anchor">#</a></h1><h2><span id="wei-shi-me-yao-xue-xi-jquery">为什么要学习Jquery</span><a href="#wei-shi-me-yao-xue-xi-jquery" class="header-anchor">#</a></h2><p>window.onload 事件有个事件覆盖的问题，我们只能写一个，代码容错性差，浏览器兼容性问题，书写很繁琐，代码量多，动画效果实现起来比较复杂等</p>]]></content>
     
     <summary type="html">
     
@@ -32,9 +32,9 @@
         &lt;div class=&quot;toc&quot;&gt;
 
 &lt;!-- toc --&gt;
-&lt;!-- tocstop --&gt;
-&lt;/div&gt;
-
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery-ji-chu&quot;&gt;Jquery基础&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#wei-shi-me-yao-xue-xi-jquery&quot;&gt;为什么要学习Jquery&lt;
       
     
     </summary>
