@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://baofengketang.com/2018/06/15/javaweb/web01/</loc>
+    
+    <lastmod>2018-06-15T03:31:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://baofengketang.com/2018/06/15/tools/webstrom/</loc>
     
     <lastmod>2018-06-15T02:25:26.000Z</lastmod>
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
+    <loc>http://baofengketang.com/2018/04/11/maven/maven_01/</loc>
     
     <lastmod>2018-05-31T13:49:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/04/11/maven/maven_01/</loc>
+    <loc>http://baofengketang.com/2018/04/19/python_base/python_01/</loc>
     
     <lastmod>2018-05-31T13:49:26.000Z</lastmod>
     
@@ -128,14 +135,14 @@
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/05/08/python_base/python_08/</loc>
+    <loc>http://baofengketang.com/2018/05/08/python_base/python_07/</loc>
     
     <lastmod>2018-05-31T13:49:21.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/05/08/python_base/python_07/</loc>
+    <loc>http://baofengketang.com/2018/05/08/python_base/python_08/</loc>
     
     <lastmod>2018-05-31T13:49:21.000Z</lastmod>
     
@@ -156,14 +163,14 @@
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/05/09/python_base/python_11/</loc>
+    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
     
     <lastmod>2018-05-31T13:49:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
+    <loc>http://baofengketang.com/2018/05/09/python_base/python_11/</loc>
     
     <lastmod>2018-05-31T13:49:18.000Z</lastmod>
     
