@@ -5,36 +5,6 @@
     
     
   <url>
-    <loc>http://baofengketang.com/2018/07/21/Servlet/jsptag6/</loc>
-    <lastmod>2018-07-20T17:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2018-07-20T16:25:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/07/20/Servlet/jsptag5/</loc>
-    <lastmod>2018-07-20T14:13:04.000Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2018-07-20T13:11:59.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://baofengketang.com/2018/07/16/Servlet/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%87%E7%AD%BE%E6%A6%82%E8%BF%B0/</loc>
     <lastmod>2018-07-20T14:11:56.000Z</lastmod>
     <data>
@@ -50,46 +20,11 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/07/18/Servlet/jsptag4/</loc>
-    <lastmod>2018-07-19T15:55:47.000Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2018-07-18T14:03:08.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://baofengketang.com/2018/07/09/Servlet/jsptag/</loc>
     <lastmod>2018-07-19T15:40:29.000Z</lastmod>
     <data>
         <display>
         <title>自定义JSP标签</title>
-        <pubTime>2018-07-09T09:56:34.000Z</pubTime>
-        
-        <tag>自定义jsp标签</tag>
-         
-         
-           
-             
-              <breadCrumb title="自定义jsp标签" url="http://baofengketang.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89jsp%E6%A0%87%E7%AD%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://baofengketang.com/2018/07/09/Servlet/jsptag2/</loc>
-    <lastmod>2018-07-16T13:48:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>自定义JSP标签(二)-创建我的第一个标签</title>
         <pubTime>2018-07-09T09:56:34.000Z</pubTime>
         
         <tag>自定义jsp标签</tag>
@@ -657,12 +592,12 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
+    <loc>http://baofengketang.com/2018/05/09/python_base/python_11/</loc>
     <lastmod>2018-05-31T13:49:18.000Z</lastmod>
     <data>
         <display>
-        <title>Python基础(十二)</title>
-        <pubTime>2018-05-09T06:43:57.000Z</pubTime>
+        <title>Python基础(十一)</title>
+        <pubTime>2018-05-09T01:35:58.000Z</pubTime>
         
         <tag>Python</tag>
          
@@ -677,12 +612,12 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/09/python_base/python_11/</loc>
+    <loc>http://baofengketang.com/2018/05/09/python_base/python_12/</loc>
     <lastmod>2018-05-31T13:49:18.000Z</lastmod>
     <data>
         <display>
-        <title>Python基础(十一)</title>
-        <pubTime>2018-05-09T01:35:58.000Z</pubTime>
+        <title>Python基础(十二)</title>
+        <pubTime>2018-05-09T06:43:57.000Z</pubTime>
         
         <tag>Python</tag>
          
@@ -737,12 +672,12 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_04/</loc>
+    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_05/</loc>
     <lastmod>2018-05-31T13:49:15.000Z</lastmod>
     <data>
         <display>
-        <title>Python网络爬虫实践－腾讯新闻</title>
-        <pubTime>2018-05-10T03:36:41.000Z</pubTime>
+        <title>Python爬虫实践－今日头条（获取js动态内容）</title>
+        <pubTime>2018-05-10T08:03:34.000Z</pubTime>
         
         <tag>爬虫</tag>
          
@@ -757,12 +692,12 @@
 
     
   <url>
-    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_05/</loc>
+    <loc>http://baofengketang.com/2018/05/10/python_data/python_data_04/</loc>
     <lastmod>2018-05-31T13:49:15.000Z</lastmod>
     <data>
         <display>
-        <title>Python爬虫实践－今日头条（获取js动态内容）</title>
-        <pubTime>2018-05-10T08:03:34.000Z</pubTime>
+        <title>Python网络爬虫实践－腾讯新闻</title>
+        <pubTime>2018-05-10T03:36:41.000Z</pubTime>
         
         <tag>爬虫</tag>
          
